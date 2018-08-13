@@ -20,14 +20,17 @@
         android:scaleType="fitXY"
         />
 
-    <EditText
+
+    <TextView
         android:id="@+id/menu_item_layout_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textStyle="bold"
+        android:textSize="22sp"
         android:gravity="center"
+        android:layout_marginBottom="7dp"
         android:textColor="@color/colorPrimary"
-        android:text="MOST POPULAR"/>
+        android:text="MOST POPULAR" />
 
 
 </LinearLayout>

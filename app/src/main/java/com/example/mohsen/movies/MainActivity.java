@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mContext = this;
 
-        //Seplash Screan   #Alex
+        //Seplash Screan
         final Handler handler=new Handler();
         handler.postDelayed(new Runnable() {
             @Override
