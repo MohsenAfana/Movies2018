@@ -1,6 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".sign_in">
+    <ImageView
+        android:id="@+id/logoSignUp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/group_1"
+        android:foregroundGravity="center"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="110dp"/>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:backgroundTint="@color/colorPrimary">
 
-</android.support.constraint.ConstraintLayout>
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:drawableStart="@drawable/mail"
+            android:textColor="@color/colorPrimary"
+            android:textColorHighlight="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="280dp"
+        android:backgroundTint="@color/colorPrimary"
+        >
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:drawableStart="@drawable/lock"
+
+            android:textColor="@color/colorPrimary"/>
+    </android.support.design.widget.TextInputLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/already_have_an_account_SignIn"
+        android:layout_marginTop="365dp"
+        android:layout_marginStart="80dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="530dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/LogIn"
+        android:textColor="@color/white"/>
+</RelativeLayout>

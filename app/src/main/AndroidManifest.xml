@@ -21,7 +21,8 @@
         <activity
             android:name=".Home_Layout"
             android:label="@string/title_activity_home__layout"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
+        <activity android:name=".sign_up"></activity>
     </application>
 
 </manifest>

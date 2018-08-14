@@ -8,4 +8,21 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="mhmd_sami">Namee</string>
+
+
+    <string name="sign_up_button">Continue</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="already_have_an_account_SignIn"> Already have an account? Login</string>
+    <string name="Continue"> Continue</string>
+    <string name="LogIn"> LogIn</string>
+    <string name="interest"> Your Interests </string>
+    <string name="finish"> Finish</string>
+    <string name="Drama"> Drama</string>
+    <string name="Action"> Acrion</string>
+    <string name="Comedy"> Comedy</string>
+    <string name="Romance"> Romance</string>
+    <string name="Horror"> Horror</string>
+    <string name="SignUP"> Dont have an account? Sign Up</string>
+
+
 </resources>
